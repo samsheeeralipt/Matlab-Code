@@ -1,5 +1,7 @@
 function [p]=AzimuthalLineScan(image,radius,data_points)
-
+%%%%% image in double format
+%%%% radius 
+%%% this is to get the gray values along a particular perimeter of radius r.
 [A,B] = size(image);
 %N=400;
 angles=linspace(0,2*pi,data_points);
